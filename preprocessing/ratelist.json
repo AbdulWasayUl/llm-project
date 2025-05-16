@@ -1,0 +1,199 @@
+{
+  "Savings Accounts": {
+    "NUST Asaan Account": [
+      {
+        "Profit Payment": "Semi-Annually",
+        "Profit Rate": "19.00%"
+      }
+    ],
+    "Profit Loss Sharing": [
+      {
+        "Profit Payment": "Semi-Annually",
+        "Profit Rate": "19.00%"
+      }
+    ],
+    "Little Champs Account": [
+      {
+        "Profit Payment": "Semi-Annually",
+        "Profit Rate": "19.00%"
+      }
+    ],
+    "NUST Special Deposit Account (ASDA)": [
+      {
+        "Profit Payment": "Monthly/Semi-Annually",
+        "Profit Rate": "19.00%"
+      }
+    ],
+    "NUST Waqaar Account - Senior Citizen": [
+      {
+        "Profit Payment": "Monthly",
+        "Profit Rate": "19.00%"
+      }
+    ],
+    "PakWatan Remittance Account": [
+      {
+        "Profit Payment": "Monthly",
+        "Profit Rate": "19.00%"
+      }
+    ],
+    "NUST Sahar": [
+      {
+        "Profit Payment": "Monthly",
+        "Profit Rate": "19.00%"
+      }
+    ],
+    "NUST Maximiser": [
+      {
+        "Profit Payment": "Monthly",
+        "Profit Rate": "19.00%"
+      },
+      {
+        "Profit Payment": "Quarterly",
+        "Profit Rate": "19.05%"
+      },
+      {
+        "Profit Payment": "Semi-Annually",
+        "Profit Rate": "19.10%"
+      },
+      {
+        "Profit Payment": "Annually",
+        "Profit Rate": "19.15%"
+      }
+    ],
+    "PLS Pensioners Account": [
+      {
+        "Profit Payment": "Semi-Annually",
+        "Profit Rate": "19.25%"
+      }
+    ],
+    "FCY": [
+      {
+        "USD": "0.25%",
+        "GBP": "0.25%",
+        "EUR": "0.00%"
+      }
+    ]
+  },
+  "Term Deposits": {
+    "Short Notice Deposit Receipt (SNDR)": [
+      {
+        "Tenor": "7 Days",
+        "Payout": "Maturity",
+        "Profit Rate": "16.50%"
+      },
+      {
+        "Tenor": "29 Days",
+        "Payout": "Maturity",
+        "Profit Rate": "16.50%"
+      }
+    ],
+    "Term Deposits": [
+      {
+        "Tenor": "One Month",
+        "Payout": "Maturity",
+        "Profit Rate": "17.00%"
+      },
+      {
+        "Tenor": "Two Months",
+        "Payout": "Maturity",
+        "Profit Rate": "17.00%"
+      },
+      {
+        "Tenor": "Three Months",
+        "Payout": "Maturity",
+        "Profit Rate": "17.00%"
+      },
+      {
+        "Tenor": "Six Months",
+        "Payout": "Maturity",
+        "Profit Rate": "17.00%"
+      },
+      {
+        "Tenor": "One Year",
+        "Payout": "Maturity",
+        "Profit Rate": "17.50%"
+      },
+      {
+        "Tenor": "Two Years",
+        "Payout": "Maturity",
+        "Profit Rate": "15.50%"
+      },
+      {
+        "Tenor": "Three Years",
+        "Payout": "Maturity",
+        "Profit Rate": "15.00%"
+      },
+      {
+        "Tenor": "Five Years",
+        "Payout": "Maturity",
+        "Profit Rate": "14.00%"
+      }
+    ],
+    "NUST Waqaar Account - Senior Citizen": [
+      {
+        "Tenor": "Three Months",
+        "Payout": "Monthly",
+        "Profit Rate": "16.00%"
+      },
+      {
+        "Tenor": "Six Months",
+        "Payout": "Monthly",
+        "Profit Rate": "16.00%"
+      },
+      {
+        "Tenor": "Six Months",
+        "Payout": "Quarterly",
+        "Profit Rate": "16.25%"
+      }
+    ],
+    "NUST Sahar": [
+      {
+        "Tenor": "One Year",
+        "Payout": "Monthly",
+        "Profit Rate": "17.00%"
+      },
+      {
+        "Tenor": "Three Years",
+        "Payout": "Monthly",
+        "Profit Rate": "14.00%"
+      },
+      {
+        "Tenor": "Five Years",
+        "Payout": "Monthly",
+        "Profit Rate": "13.25%"
+      }
+    ],
+    "NUST Maximiser": [
+      {
+        "Tenor": "One Year",
+        "Payout": "Monthly",
+        "Profit Rate": "15.00%"
+      },
+      {
+        "Tenor": "Two Years",
+        "Payout": "Monthly/ Quarterly/ Annual",
+        "Profit Rate": "13.00%"
+      }
+    ],
+    "FCY": [
+      {
+        "Tenor": "Savings Account",
+        "Payout": null,
+        "Profit Rate": {
+          "USD": "0.25%",
+          "GBP": "0.25%",
+          "EUR": "0.00%"
+        }
+      },
+      {
+        "Tenor": "Term Deposits",
+        "Payout": null,
+        "Profit Rate": {
+          "USD": "0.25%",
+          "GBP": "0.25%",
+          "EUR": "0.00%"
+        }
+      }
+    ]
+  }
+}
