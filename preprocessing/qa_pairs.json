@@ -30,7 +30,7 @@
         },
         {
             "question": "What are the profit payment and profit rate for NUST Maximiser Savings Account?",
-            "answer": "Profit Payment is Monthly, Profit Rate is 19.00%. Profit Payment is Quarterly, Profit Rate is 19.05%. Profit Payment is Semi-Annually, Profit Rate is 19.10%. Profit Payment is Annually, Profit Rate is 19.15%."
+            "answer": "When Profit Payment is Monthly, Profit Rate is 19.00%. When Profit Payment is Quarterly, Profit Rate is 19.05%. When Profit Payment is Semi-Annually, Profit Rate is 19.10%. When Profit Payment is Annually, Profit Rate is 19.15%."
         },
         {
             "question": "What are the profit payment and profit rate for PLS Pensioners Account Savings Account?",
@@ -42,23 +42,23 @@
         },
         {
             "question": "What are the tenor, payout and profit rate for Short Notice Deposit Receipt (SNDR) Term Deposit?",
-            "answer": "Tenor is 7 Days, Payout is Maturity, Profit Rate is 16.50%. Tenor is 29 Days, Payout is Maturity, Profit Rate is 16.50%."
+            "answer": "When Tenor is 7 Days, Payout is Maturity, Profit Rate is 16.50%. When Tenor is 29 Days, Payout is Maturity, Profit Rate is 16.50%."
         },
         {
             "question": "What are the tenor, payout and profit rate for Term Deposits Term Deposit?",
-            "answer": "Tenor is One Month, Payout is Maturity, Profit Rate is 17.00%. Tenor is Two Months, Payout is Maturity, Profit Rate is 17.00%. Tenor is Three Months, Payout is Maturity, Profit Rate is 17.00%. Tenor is Six Months, Payout is Maturity, Profit Rate is 17.00%. Tenor is One Year, Payout is Maturity, Profit Rate is 17.50%. Tenor is Two Years, Payout is Maturity, Profit Rate is 15.50%. Tenor is Three Years, Payout is Maturity, Profit Rate is 15.00%. Tenor is Five Years, Payout is Maturity, Profit Rate is 14.00%."
+            "answer": "When Tenor is One Month, Payout is Maturity, Profit Rate is 17.00%. When Tenor is Two Months, Payout is Maturity, Profit Rate is 17.00%. When Tenor is Three Months, Payout is Maturity, Profit Rate is 17.00%. When Tenor is Six Months, Payout is Maturity, Profit Rate is 17.00%. When Tenor is One Year, Payout is Maturity, Profit Rate is 17.50%. When Tenor is Two Years, Payout is Maturity, Profit Rate is 15.50%. When Tenor is Three Years, Payout is Maturity, Profit Rate is 15.00%. When Tenor is Five Years, Payout is Maturity, Profit Rate is 14.00%."
         },
         {
             "question": "What are the tenor, payout and profit rate for NUST Waqaar Account - Senior Citizen Term Deposit?",
-            "answer": "Tenor is Three Months, Payout is Monthly, Profit Rate is 16.00%. Tenor is Six Months, Payout is Monthly, Profit Rate is 16.00%. Tenor is Six Months, Payout is Quarterly, Profit Rate is 16.25%."
+            "answer": "When Tenor is Three Months, Payout is Monthly, Profit Rate is 16.00%. When Tenor is Six Months, Payout is Monthly, Profit Rate is 16.00%. When Tenor is Six Months, Payout is Quarterly, Profit Rate is 16.25%."
         },
         {
             "question": "What are the tenor, payout and profit rate for NUST Sahar Term Deposit?",
-            "answer": "Tenor is One Year, Payout is Monthly, Profit Rate is 17.00%. Tenor is Three Years, Payout is Monthly, Profit Rate is 14.00%. Tenor is Five Years, Payout is Monthly, Profit Rate is 13.25%."
+            "answer": "When Tenor is One Year, Payout is Monthly, Profit Rate is 17.00%. When Tenor is Three Years, Payout is Monthly, Profit Rate is 14.00%. When Tenor is Five Years, Payout is Monthly, Profit Rate is 13.25%."
         },
         {
             "question": "What are the tenor, payout and profit rate for NUST Maximiser Term Deposit?",
-            "answer": "Tenor is One Year, Payout is Monthly, Profit Rate is 15.00%. Tenor is Two Years, Payout is Monthly/ Quarterly/ Annual, Profit Rate is 13.00%."
+            "answer": "When Tenor is One Year, Payout is Monthly, Profit Rate is 15.00%. When Tenor is Two Years, Payout is Monthly/ Quarterly/ Annual, Profit Rate is 13.00%."
         },
         {
             "question": "What are the tenor, payout and profit rate for FCY Term Deposit?",
