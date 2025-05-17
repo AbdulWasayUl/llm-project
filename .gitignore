@@ -1,0 +1,13 @@
+# Ignore virtual environment
+myenv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore sentence-transformer model embeddings
+app/embedding/
+
+# Ignore FAISS index file
+app/bank-data_index.faiss

@@ -85,13 +85,15 @@ def extract_qa_from_sheet(sheet):
         "qas": qas
     }
 
-def process_excel_to_json(filepath):
+def process_excel_to_json(filepath, skip=False):
     wb = openpyxl.load_workbook(filepath, data_only=True)
     sheetnames = wb.sheetnames
 
     final_output = {}
 
-    for sheet_name in sheetnames[2:]:  # Skip first two sheets
+    skipped_sheets = 0 if not skip else 2
+
+    for sheet_name in sheetnames[skipped_sheets:]:  # Skip first two sheets
         sheet = wb[sheet_name]
         final_output[sheet_name] = extract_qa_from_sheet(sheet)
 
@@ -101,4 +103,4 @@ def process_excel_to_json(filepath):
     print("✅ Q&A data extracted to account_qas.json")
 
 # Run it
-process_excel_to_json("NUST Bank-Product-Knowledge.xlsx")
+process_excel_to_json("NUST Bank-Product-Knowledge.xlsx", True) 
