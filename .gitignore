@@ -11,3 +11,10 @@ app/embedding/
 
 # Ignore FAISS index file
 app/bank-data_index.faiss
+app/bank-data.json
+
+# Ignore LLM model files
+app/models/
+
+# Ignore logs
+app/security.log

@@ -9,6 +9,7 @@ from huggingface_hub import login
 EMBEDDING_DIR = "embedding"
 EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
 INDEX_PATH = "bank-data_index.faiss"
+DOCS_PATH = "bank-data.json"
 
 def load_or_download_model():
     model_path = os.path.join(EMBEDDING_DIR, EMBEDDING_MODEL_NAME)
@@ -35,6 +36,12 @@ def load_or_create_index(dim):
     print("Creating new FAISS index")
     return faiss.IndexFlatL2(dim)
 
+def save_documents(documents):
+    doc_map = {str(i): doc for i, doc in enumerate(documents)}
+    with open(DOCS_PATH, "w", encoding="utf-8") as f:
+        json.dump(doc_map, f, indent=2, ensure_ascii=False)
+    print(f"Documents saved to '{DOCS_PATH}'")
+
 def main(qa_path):
     print(f"Loading QA data from '{qa_path}'")
     qa_data = load_qa_data(qa_path)
@@ -43,6 +50,8 @@ def main(qa_path):
         return
 
     documents = build_documents(qa_data)
+    save_documents(documents)
+
     model = load_or_download_model()
     print("Generating embeddings...")
     embeddings = model.encode(documents, convert_to_numpy=True)

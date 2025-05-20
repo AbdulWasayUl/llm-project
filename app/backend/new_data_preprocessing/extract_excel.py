@@ -1,5 +1,5 @@
 import openpyxl
-from utils import is_question, clean_answer_list
+from backend.new_data_preprocessing.utils import is_question, clean_answer_list
 
 def extract_qa_from_sheet(sheet):
     qas = []

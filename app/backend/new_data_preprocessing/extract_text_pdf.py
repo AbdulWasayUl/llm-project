@@ -1,4 +1,4 @@
-from utils import is_question
+from backend.new_data_preprocessing.utils import is_question
 from PyPDF2 import PdfReader
 
 def extract_lines_from_txt(filepath):
